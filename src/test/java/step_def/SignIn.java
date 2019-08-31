@@ -19,8 +19,8 @@ public class SignIn {
         lp.launchUrl();
     }
 
-    @And("Customer clicks {string} link")
-    public void customerClicksLink(String arg0) {
+    @And("Customer clicks sign in link")
+    public void customerClicksLink() {
 
         BasePage bp =  new BasePage();
         bp.clickSignInLink();
